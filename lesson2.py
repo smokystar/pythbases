@@ -64,10 +64,10 @@ for i in range((string.count(' ')+1)):
         num += 1
 
 #number 5
-element = int(input('сколько человек вы хотите добавить в рейтинг? введите цифру'))
+el = int(input('сколько человек вы хотите добавить в рейтинг? введите цифру'))
 list = [7, 5, 3, 3, 2]
 i = 0
-while i < element:
+while i < el:
     number = int(input('элемент рейтинга'))
     list.append(number)
     i += 1
